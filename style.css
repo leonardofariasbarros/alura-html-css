@@ -3,7 +3,7 @@ p{
 }
 
 body{
-	background: #CCCCCC;
+	
 }
 
 h1{
@@ -18,10 +18,35 @@ h1{
 	width: 100%;
 }
 
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
 em strong{
 	color: red;
 }
 
 .itens{
 	font-style: italic;
+}
+
+h2{
+	text-align: center;
+}
+
+.beneficios{
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios{
+	width: 50%;
 }
