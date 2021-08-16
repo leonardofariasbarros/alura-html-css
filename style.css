@@ -6,7 +6,11 @@ body{
 	
 }
 
-h1{
+.titulo-principal{
+	padding-left: 20px;
+}
+
+.titulo-centralizado{
 	text-align: center;
 }
 
@@ -31,9 +35,6 @@ em strong{
 	font-style: italic;
 }
 
-h2{
-	text-align: center;
-}
 
 .beneficios{
 	background: #FFFFFF;
