@@ -32,7 +32,7 @@ nav a{
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-		padding: 50px 0;
+	padding: 50px 0;
 }
 
 .produtos li {
@@ -45,6 +45,24 @@ nav a{
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+}
+
+.produtos li:hover{
+	border-color: #C78C19;
+	/*transform: scale(1.1);*/
+}
+
+.produtos li:hover h2{
+	font-size: 40px;
+}
+
+.produtos li:active{
+	color: #088C19;
+}
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
 }
 
 .produtos h2{
